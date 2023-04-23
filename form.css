@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(https://gamerwall.pro/uploads/posts/2022-10/1666014329_1-gamerwall-pro-p-gori-na-rabochii-stol-pinterest-1.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #000;
+}
+.box{
+    width: 350px;
+    height: 450px;
+    margin: 100px auto;
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    transition: 0,5s;
+    padding: 40px;
+}
+.block{
+    border-bottom: 3px solid #000;
+    margin-bottom: 15px;
+    padding: 20px 0;
+}
+.box:hover{
+    background-color: #0000000d;
+}
+.box_label{
+
+}
+.box_input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.text{
+    font-size: 15px;
+    padding: 0 70px;
+}
+.box_mini{
+    display: flex;
+    align-items: center;
+}
+.Login{
+    width: 60px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: 0,5s;
+    text-align: center;
+}
+.Login:hover:nth-child(1){
+    background-color: rgb(9, 255, 226);
+}
+.Login:hover:nth-child(2){
+    background-color: rgb(0, 255, 98);
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.circle{
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+}
+.boe{
+    background-color: #ffd500;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box__link{
+    font-size: 50px;
+}

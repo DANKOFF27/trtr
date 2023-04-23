@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(https://images.hdqwalls.com/download/firewatch-nature-m1-1920x1080.jpg);
+    background-size: cover;
+}
+.card{
+    background-color: rgb(255, 219, 40);
+    width: 450px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+.card__box{
+    background: url(https://static.vecteezy.com/system/resources/previews/001/946/569/original/abstract-geometric-hexagons-yellow-background-with-diagonal-striped-lines-free-vector.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px 15px;
+    transition: 1s;
+}
+.box__titile{
+
+}
+.box__headar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__right-circle{
+    border-radius: 50%;
+    background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+}
+.box__headr-name{
+
+}
+.box__headar-right{
+    display: flex;
+}
+.box__right-text{
+
+}
+.box__information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.card__box-information{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.card__box-circle{
+    border-radius: 50%;
+    background-color: aquamarine;
+    width: 20px;
+    height: 20px;
+}
+.font{
+    font-size: 20px;
+}
+.box__image-photo{
+    border: 7px solid #ffd500;
+    box-shadow: #000;
+    background-size: cover;
+}
+.box__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box__img-info{
+    background-color: #ffd500;
+    border-radius: 50px 15px;
+    text-align: center;
+    display: flex;
+}
+.font2{
+    font-size: 15px;
+}
+.card__box:hover{
+    background: url(https://www.zahidknyga.com.ua/images/13/kak-sdelat-zheltiy-2B2A.jpg);
+}
+.box{
+    background-color: #ffd500;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box__link{
+    font-size: 50px;
+}
